@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ampliaciones3">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="382dp"
+        android:layout_height="513dp"
+        android:layout_marginEnd="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/otro" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="133dp"
+        android:layout_height="61dp"
+        android:background="#ff8100"
+        android:text="REGRESAR"
+        android:textColor="#FFF"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="384dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="127dp"
+        android:layout_height="58dp"
+        android:background="#ff8100"
+        android:textColor="#FFF"
+        android:text="CALCULAR"
+        tools:layout_editor_absoluteX="212dp"
+        tools:layout_editor_absoluteY="384dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="135dp"
+        android:layout_height="35dp"
+        android:background="#000000"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#fff"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="113dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="135dp"
+        android:layout_height="34dp"
+        android:background="#000000"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#fff"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="199dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="135dp"
+        android:layout_height="36dp"
+        android:text="Largo (m)"
+        android:textColor="#fff"
+        android:textSize="28sp"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="113dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="147dp"
+        android:layout_height="37dp"
+        android:text="TECHO"
+        android:textAlignment="center"
+        android:textColor="#FF8100"
+        android:textSize="28sp"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="135dp"
+        android:layout_height="38dp"
+        android:text="Ancho (m)"
+        android:textColor="#fff"
+        android:textSize="28sp"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="199dp" />
+</android.support.constraint.ConstraintLayout>

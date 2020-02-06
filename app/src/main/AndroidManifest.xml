@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.andre.hbuild">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="HBUILD"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Inicio">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Opciones" />
+        <activity android:name=".Ampliaciones" />
+        <activity android:name=".Ampliaciones2" />
+        <activity android:name=".Ampliaciones3" />
+        <activity android:name=".Ampliaciones4" />
+        <activity android:name=".Ampliaciones5" />
+        <activity android:name=".Ampliaciones6" />
+        <activity android:name=".Ampliaciones7" />
+        <activity android:name=".Ampliaciones8" />
+        <activity android:name=".Construccion" />
+        <activity android:name=".Construccion1" />
+        <activity android:name=".Construccion2" />
+        <activity android:name=".Construccion3" />
+        <activity android:name=".Construccion4" />
+        <activity android:name=".Construccion5" />
+        <activity android:name=".Construccion6" />
+        <activity android:name=".Construccion7" />
+        <activity android:name=".Construccion8" />
+        <activity android:name=".Construccion9" />
+        <activity android:name=".PreguntasFrecuentes" />
+        <activity android:name=".PreguntasFrecuentes2"></activity>
+    </application>
+
+</manifest>
